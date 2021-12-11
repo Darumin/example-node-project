@@ -36,11 +36,13 @@ const createNameSubmissionForm = () => {
 }
 
 // 1. Code flow starts here, with creating a form element
-//    and appending it to the semantic element main in index.html.
+//    and appending it to the container element in index.html.
 //    I use a IIFE here because I know the code inside is a one-off,
 //    and won't be used again.
 //    https://developer.mozilla.org/en-US/docs/Glossary/IIFE
 (() => {
-  let main = document.querySelector('main');
-  main.appendChild(createNameSubmissionForm());
+  let container = document.getElementById('container');
+  let div = document.createElement('div');
+  div.appendChild(createNameSubmissionForm())
+  container.appendChild(div);
 })(document)
