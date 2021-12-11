@@ -1,4 +1,5 @@
 const express = require('express');
+const { test } = require('../utils/tools')
 const path = require('path');
 const app = express();
 
@@ -12,4 +13,9 @@ app.listen(port, () => {
 
 app.get('/', (req, res) => {
   res.send('Hello from the server.');
+});
+
+app.get('/name', (req, res) => {
+  console.log(req.query);
+  res.redirect('/');
 });
