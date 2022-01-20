@@ -42,7 +42,7 @@ const Square = () => {
       onClick={() => { setSquare(!square); }}
       style={{ backgroundColor: styles[getColorIndex()] }}
     >
-      {square ? 'Hello world!' : 'Goodbye world!'}<br />
+      {square ? 'Hello world!' : 'MCSP-10!'}<br />
     </div>
   );
 };

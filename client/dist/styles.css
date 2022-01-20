@@ -1,13 +1,37 @@
 body {
+  font-family: 'Courier New', Courier, monospace;
   background-color: orange;
+}
+
+#app {
+  display: flex;
+}
+
+#checklist {
+  display: flex;
+  flex-direction: column;
 }
 
 #square {
   user-select: none;
+  cursor: pointer;
   font-weight: bold;
   cursor: pointer;
   text-align: center;
   line-height: 300px;
   width: 300px;
   height: 300px;
+}
+
+.student {
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  line-height: 40px;
+  height: 40px;
+  width: 200px;
+  margin: 5px;
+  text-align: center;
 }
