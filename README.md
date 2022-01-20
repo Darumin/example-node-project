@@ -1,6 +1,6 @@
 # Getting started
 
-This project is a very basic Node Express server. To see it in action, follow the directions below.
+This project is a very basic Node Express server with a React frontend. To see it in action, follow the directions below.
 
 1. Clone this repo to your local computer. Navigate to the local directory and run this command.
 
@@ -10,4 +10,4 @@ This project is a very basic Node Express server. To see it in action, follow th
 
 ```npm run dev```
 
-3. You can view the website by navigating to `localhost:3000` in your browser. Any changes you make in the `index.html` will update the page automatically. Play around with it.
+3. You can view the website by navigating to `localhost:3000` in your browser. Run `npm run build` to build with Webpack every time you make changes. Have fun.
