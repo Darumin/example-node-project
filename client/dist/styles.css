@@ -1,0 +1,12 @@
+body {
+  background-color: orange;
+}
+
+#hello {
+  background-color: yellow;
+  cursor: pointer;
+  text-align: center;
+  line-height: 300px;
+  width: 300px;
+  height: 300px;
+}
