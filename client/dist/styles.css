@@ -2,8 +2,9 @@ body {
   background-color: orange;
 }
 
-#hello {
-  background-color: yellow;
+#square {
+  user-select: none;
+  font-weight: bold;
   cursor: pointer;
   text-align: center;
   line-height: 300px;
